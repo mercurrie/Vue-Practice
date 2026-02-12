@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "header": "Buy groceries",
+    "description": "Pick up milk, eggs, bread, and vegetables from the store.",
+    "done": false
+  },
+  {
+    "id": 2,
+    "header": "Morning workout",
+    "description": "Complete a 30-minute cardio session and stretch.",
+    "done": true
+  },
+  {
+    "id": 3,
+    "header": "Read Vue docs",
+    "description": "Go through the Composition API and reactivity sections.",
+    "done": false
+  }
+]
