@@ -16,6 +16,7 @@
             errorValue.value = "Task Cannot Be Empty!";
         }
     }
+
 </script>
 
 <script lang="ts">
@@ -39,7 +40,7 @@
         </small>
     </label>
       <div class="button-container"">
-        <button >Add</button>
+        <button @removeTask="">Add</button>
       </div>
     </form>
 </template>
