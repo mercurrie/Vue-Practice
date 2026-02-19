@@ -48,7 +48,7 @@
     <TaskForm @add-task="addTask"/>
     <h3 v-if="tasks.length < 1">Add a task to get started.</h3>
     <h3 v-else>{{ totalDone }} / {{ tasks.length }} tasks done.</h3>
-    <div v-if="tasks.length > 0" class="filter-container">
+    <div v-if="tasks.length > 0" class="task-filter">
       <FilterSelect :filter="filter" @update-filter="filter = $event"/>
     </div>
     <TaskList :tasks="filteredTasks" @toggle-task="toggleDone" @remove-task="removeTask"/>
@@ -65,5 +65,15 @@ main{
   justify-content: end;
   gap: .5rem;
   margin-bottom: 1rem;
+}
+
+.task-filter{
+  display: flex;
+  justify-content: end;
+  margin-bottom: 1rem;
+
+  select{
+    width: 300px;
+  }
 }
 </style>
