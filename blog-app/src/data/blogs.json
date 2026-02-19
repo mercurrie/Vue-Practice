@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Getting Started with Vue 3",
+    "date": "2026-01-05",
+    "description": "An introduction to Vue 3's Composition API, script setup syntax, and how it compares to the Options API from Vue 2."
+  },
+  {
+    "title": "Building Responsive UIs with Vuetify",
+    "date": "2026-01-14",
+    "description": "A deep dive into Vuetify's grid system, breakpoints, and component library to build mobile-friendly interfaces."
+  },
+  {
+    "title": "State Management with Pinia",
+    "date": "2026-01-28",
+    "description": "Learn how to use Pinia as a lightweight and intuitive alternative to Vuex for managing global state in Vue apps."
+  },
+  {
+    "title": "Vue Router and File-Based Routing",
+    "date": "2026-02-03",
+    "description": "Exploring how unplugin-vue-router generates routes automatically from your pages directory, and how to handle dynamic routes."
+  },
+  {
+    "title": "TypeScript Tips for Vue Developers",
+    "date": "2026-02-10",
+    "description": "Practical TypeScript patterns for typed props, emits, and composables that make your Vue components more robust and maintainable."
+  },
+  {
+    "title": "Deploying a Vue App to Netlify",
+    "date": "2026-02-17",
+    "description": "A step-by-step guide to building and deploying a Vite-powered Vue application to Netlify with continuous deployment from GitHub."
+  }
+]
